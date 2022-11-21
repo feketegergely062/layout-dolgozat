@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+  
+}
+#container{
+    background-color: white;
+    background-repeat: no-repeat;
+
+}
+#header h1{
+    background-color: antiquewhite;
+}
+ 
+.menu ul li>{
+    float: right;
+    background-color: antiquewhite;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu ul li>more stuff here{
+    float: right;
+    color: black;
+    background-color: chocolate;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+#footer{
+    
+    background-color:antiquewhite ;
+}
